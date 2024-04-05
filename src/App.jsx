@@ -42,7 +42,7 @@ export const App = () => {
             <tr
               data-cy="Good"
               key={good}
-              className={`${selectedGood === good ? 'has-background-success-light' : ''}`}
+              className={selectedGood === good ? 'has-background-success-light' : ''}
             >
               <td>
                 <button
